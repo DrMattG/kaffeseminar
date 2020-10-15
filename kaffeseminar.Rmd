@@ -47,7 +47,7 @@ class: inverse, center, middle
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/assets/SystematicMap.png")
+img3_path=paste0(here(),"/img/SystematicMap.png")
 knitr::include_graphics(img3_path)
 
 ```
@@ -62,7 +62,7 @@ knitr::include_graphics(img3_path)
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/assets/SystematicReview.png")
+img3_path=paste0(here(),"/img/SystematicReview.png")
 knitr::include_graphics(img3_path)
 
 ```
@@ -75,7 +75,7 @@ knitr::include_graphics(img3_path)
 - Statistical model to bring together *effect size estimates* from a number of discrete studies
 - Yes, it is "just regression"
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.height= "400"}
-img3_path=paste0(here(),"/assets/That-jerk-throwing-weight.jpg")
+img3_path=paste0(here(),"/img/That-jerk-throwing-weight.jpg")
 knitr::include_graphics(img3_path)
 
 ```
@@ -97,7 +97,7 @@ The effect size is the standardised difference between two groups.
 - Any model that contextualises the evidence in a form designed to help inform decisions
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/assets/DecisionModel.png")
+img3_path=paste0(here(),"/img/DecisionModel.png")
 knitr::include_graphics(img3_path)
 
 ```
@@ -128,7 +128,7 @@ Over 2.5 million academic papers published per year
 ## Living Systematic Reviews
 
 
-![](assets/LivingReview.png)
+![](img/LivingReview.png)
 ---
 ```{r, echo=FALSE}
 knitr::include_url("https://covid-nma.com/dataviz/", height = "400px")
@@ -142,7 +142,7 @@ knitr::include_url("https://covid-nma.com/dataviz/", height = "400px")
 - Although we (Eliza Grimes; Neal Haddaway; Gabby Palomo-Munoz; Me) have started to do this for ecological journals
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "200px"}
-img3_path=paste0(here(),"/assets/logo.png")
+img3_path=paste0(here(),"/img/logo.png")
 knitr::include_graphics(img3_path)
 
 ```
@@ -154,7 +154,7 @@ knitr::include_graphics(img3_path)
 ```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "400px"}
 # Small fig.width
 
-img1_path=paste0(here(),"/assets/Buck.jpg")
+img1_path=paste0(here(),"/img/Buck.jpg")
 knitr::include_graphics(img1_path)
 
 ```
@@ -173,8 +173,8 @@ Decision analysis added to Evidence Synthesis
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 
-img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/assets/jfr312484-fig-0004-m.jpg")
+img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
 knitr::include_graphics(img1_path)
 
 ```
@@ -183,8 +183,8 @@ knitr::include_graphics(img1_path)
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/assets/jfr312484-fig-0004-m.jpg")
+#img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
 knitr::include_graphics(img2_path)
 ```
 
@@ -196,8 +196,8 @@ knitr::include_graphics(img2_path)
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/assets/unnamed-chunk-309-1.png")
+#img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/img/unnamed-chunk-309-1.png")
 knitr::include_graphics(img2_path)
 ```
 
@@ -205,8 +205,8 @@ knitr::include_graphics(img2_path)
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/assets/forest_bayesian.png")
+#img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/img/forest_bayesian.png")
 knitr::include_graphics(img2_path)
 ```
 
@@ -230,8 +230,8 @@ class: inverse
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/assets/1500x500.jpg")
+#img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/img/1500x500.jpg")
 knitr::include_graphics(img2_path)
 ```
 
