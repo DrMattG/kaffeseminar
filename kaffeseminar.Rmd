@@ -1,8 +1,8 @@
 ---
 title: "Opportunities and challenges in Evidence Synthesis"
 author: "Matt Grainger"
-date: "2020/10/15"
-output:
+date: "15/10/2020"
+output: 
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -16,30 +16,20 @@ options(htmltools.dir.version = FALSE)
 library(here) 
 ```
 
-class: inverse, center, middle
+class: inverse
 
-![](https://media.giphy.com/media/ZZkCo8zKWtt2ZgozfX/giphy.gif)
+# Outline of the talk
 
----
+## What is Evidence Synthesis?
+  - Methods & concepts
 
-class: inverse, center, middle
+## What are the challenges?
+  - (...some of the challenges)
+  - And some solutions
 
-![](https://media.giphy.com/media/1P5sdPTY4P2iQ/giphy.gif)
-
-The publication is no longer the unit of scientific output
-
-Datasets are the valued and scientists are rewarded for data creation
-
-Studies are designed to fill gaps in the evidence 
-
-"Robots" gather data, critically appraise it and report synthesis to scientists
-
-Synthesis is dynamically updated as new evidence becomes available
-
----
-class: inverse, center, middle
-
-![](https://media.giphy.com/media/kHf2aGhftu0ZLO7Zbg/giphy.gif)
+## What are the opportunities?
+  - Research
+  - "Easy" win for NINA?
 
 ---
 class: inverse, center, middle
@@ -49,113 +39,90 @@ class: inverse, center, middle
 "‘Evidence synthesis’ refers to the process of bringing together information from a range of sources and disciplines to inform debates and decisions on specific issues. Decision-making and public debate are best served if policymakers have access to the best current evidence on an issue. An accurate, concise and unbiased synthesis of the evidence is therefore one of the most valuable contributions the research community can offer policymakers." (Royal Society)
 
 ---
-# Glossary of terms
-## Systematic review 
-- Methodological approach designed to reduce bias in reviews of literature around a narrow question 
-- Not just a review done systematically
 
-## Systematic map
-- Essentially a broader systematic review 
-- It shows where there are data gaps and data gluts
+# Evidence synthesis approaches #1
 
-## Meta-analysis
-- Statistical model to bring together effect size estimates from a number of descrete studies
-- Yes, it is "just regression"
+**Systematic map (a.k.a. scoping review)**
+- It shows where there are data "gaps" (where we need primary research) and data gluts (where we need systematic review)
 
----
-# Glossary continued
-
-## Decision model
-- Any model that contextualises the evidence in a form designed to help inform decisions
-
-## Effect size
-- The size of the effect of the thing (intervention) that you are interested in (X has a 23% reduction in mortality compared to Y)
-- Smaller effects need bigger sample sizes to show a difference
-
----
-
-# Evidence synthesis workflows
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/assets/Coffee_presentation_ideas3.png")
+img3_path=paste0(here(),"/assets/SystematicMap.png")
 knitr::include_graphics(img3_path)
 
 ```
 
 ---
 
-# Challenges in Evidence synthesis (data synthesis)
+# Evidence synthesis approaches #2
+
+**Systematic review** 
+- Methodological approach designed to reduce bias in reviews of literature around a narrow question 
+- Not just a review done systematically
+
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-# Small fig.width
-img2_path=paste0(here(),"/assets/Coffee_presentation_ideas2.png")
-knitr::include_graphics(img2_path)
-
-```
-
----
-# Opportunities in Evidence synthesis (data synthesis)
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-# Logo LN
-img2_path=paste0(here(),"/assets/LNWhite.png")
-knitr::include_graphics(img2_path)
-
-```
-
-
-
----
-
-# Challenges in Evidence synthesis (summary stats)
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-# Small fig.width
-img_path=paste0(here(),"/assets/Coffee_presentation_ideas.png")
-knitr::include_graphics(img_path)
+img3_path=paste0(here(),"/assets/SystematicReview.png")
+knitr::include_graphics(img3_path)
 
 ```
 
 ---
 
-# QPRs, publication bias, etc.
+# Evidence synthesis approaches #3
 
-## Challenges
-Biases arise in the process of publication for multiple reasons. Publication bias and selective reporting are probably the biggest challenge for ecological evidence synthesis. 
+**Meta-analysis**
+- Statistical model to bring together *effect size estimates* from a number of discrete studies
+- Yes, it is "just regression"
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.height= "400"}
+img3_path=paste0(here(),"/assets/That-jerk-throwing-weight.jpg")
+knitr::include_graphics(img3_path)
 
-## Opportunities
+```
 
-- Pre-registration
-- Open science (sharing data and code)
-- Rethink the "tell a good story" narrative when training students
+
+
+---
+# An aside - what is an effect size?
+
+The effect size is the standardised difference between two groups. 
+
+<iframe src="https://drmatt.shinyapps.io/Dance_of_p/?_ga=2.106381763.1562201692.1601905231-1918338439.1553066524"width="90%" height="70%" ></iframe>
+
+
+---
+# Evidence synthesis approaches #4
+
+**Decision model**
+- Any model that contextualises the evidence in a form designed to help inform decisions
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+img3_path=paste0(here(),"/assets/DecisionModel.png")
+knitr::include_graphics(img3_path)
+
+```
 
 ---
 
-# Huge numbers of papers
+# Challenges in Evidence synthesis #1
+*Huge numbers of papers*
 
-## Challenges 
 Over 2.5 million academic papers published per year 
 
 ![](https://media.giphy.com/media/c6W48VCLPF1l8Uu18A/giphy.gif)
-# Opportunities
-- Research weaving
+
+### Solutions
+- Evidence mapping (open access tools - e.g. EviAtlas, sysrevdata)
+- Dynamic searching (e.g. litsearchr, Revtools)
+- Research weaving*
 - Collaborative synthesis
-- Living systematic reviews
-- "Robot" data extraction
+- Living systematic reviews*
+- "Robot" data extraction* (e.g. doi2txt)
 
 ---
 ## Research weaving
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S0169534718302787-gr3_lrg.jpg)
-
----
-## Collaborative synthesis
-
-```{r, echo=FALSE}
-knitr::include_url("https://entogem.github.io/", height = "400px")
-
-```
-
 
 ---
 ## Living Systematic Reviews
@@ -170,40 +137,21 @@ knitr::include_url("https://covid-nma.com/dataviz/", height = "400px")
 ---
 ## "Robot" data extraction
 
-- Data extraction using NLP 
+- Data extraction using Natural Language Processing (NLP) algorithms 
 - It's a bit easier in medicine and other sciences with well defined reporting standards
 - Although we (Eliza Grimes; Neal Haddaway; Gabby Palomo-Munoz; Me) have started to do this for ecological journals
 
-![](https://raw.githubusercontent.com/elizagrames/doi2txt/main/man/figures/logo.png)
-
----
-
-# Over-reliance on experts alone
-
-# Challenges 
-- "Data" & "opinion" easily mixed up in policy 
-- Wasted opportunities to fill the knowledge gaps
-
-```{r, echo=FALSE}
-knitr::include_url("https://www.conservationevidence.com/actions/604", height = "400px")
+```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "200px"}
+img3_path=paste0(here(),"/assets/logo.png")
+knitr::include_graphics(img3_path)
 
 ```
 
-# Opportunities
-- Primary Research targeted to gaps in our knowledge (Grainger et al. Nat Ecol Evol 4, 495–497 (2020). https://doi.org/10.1038/s41559-020-1141-6)
-
 ---
-# Critical appraisal subjective & complex
-# Challenges
-- 
+# Challenges in Evidence synthesis #2
+**Inconclusive evidence**
 
-Network meta-analysis and threshold analysis
-
----
-
-# Inconculsive evidence
-
-```{r,out.width = "70%", echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "400px"}
 # Small fig.width
 
 img1_path=paste0(here(),"/assets/Buck.jpg")
@@ -211,13 +159,80 @@ knitr::include_graphics(img1_path)
 
 ```
 
+---
 
-Threshold analysis 
+# What are the opportunities? #1
 
-Decision models
+Decision analysis added to Evidence Synthesis
+
+![](https://media.giphy.com/media/DEEKIL8mNix0Y/giphy.gif)
 
 ---
-class: inverse, center, middle
 
-![](https://media.giphy.com/media/xsF1FSDbjguis/giphy.gif)
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+
+img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/jfr312484-fig-0004-m.jpg")
+knitr::include_graphics(img1_path)
+
+```
+
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/jfr312484-fig-0004-m.jpg")
+knitr::include_graphics(img2_path)
+```
+
+---
+
+# What are the opportunities? #2
+
+*Network Meta-analysis - difference between interventions*
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/unnamed-chunk-309-1.png")
+knitr::include_graphics(img2_path)
+```
+
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/forest_bayesian.png")
+knitr::include_graphics(img2_path)
+```
+
+---
+
+## An "easy" win?
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Does your organisation have online reports (in any language) some of which test whether conservation actions work? Are you prepared to extract such reports so they are available to a wider audience and included in evidence synthesis? Please get in touch! <a href="https://t.co/zeksXCDsK1">https://t.co/zeksXCDsK1</a></p>&mdash; Bill Sutherland (@Bill_Sutherland) <a href="https://twitter.com/Bill_Sutherland/status/1316289266742427648?ref_src=twsrc%5Etfw">October 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+class: inverse
+
+# Some final points...
+
+## Evidence synthesis is a robust methodology but it can be done badly
+## Often evidence synthesis can come across as rigid and unforgiving
+## "Rapid synthesis" is a bit of a buzzword at the moment but we can do reviews rapidly 
+
+
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/1500x500.jpg")
+knitr::include_graphics(img2_path)
+```
+
+## Have a look at some of the tools we are developing at https://www.eshackathon.org/
