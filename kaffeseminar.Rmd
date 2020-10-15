@@ -1,8 +1,8 @@
 ---
 title: "Opportunities and challenges in Evidence Synthesis"
 author: "Matt Grainger"
-date: "2020/10/15"
-output:
+date: "15/10/2020"
+output: 
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -28,7 +28,7 @@ class: inverse
   - And some solutions
 
 ## What are the opportunities?
-  - Conservation research
+  - Research
   - "Easy" win for NINA?
 
 ---
