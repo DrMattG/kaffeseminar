@@ -63,10 +63,11 @@ class: inverse, center, middle
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/img/SystematicReview.png")
-knitr::include_graphics(img3_path)
+# img3_path=paste0(here(),"/img/SystematicReview.png")
+# knitr::include_graphics(img3_path)
 
 ```
+![](img/SystematicReview.png)
 
 ---
 
@@ -76,12 +77,12 @@ knitr::include_graphics(img3_path)
 - Statistical model to bring together *effect size estimates* from a number of discrete studies
 - Yes, it is "just regression"
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.height= "400"}
-img3_path=paste0(here(),"/img/That-jerk-throwing-weight.jpg")
-knitr::include_graphics(img3_path)
+# img3_path=paste0(here(),"/img/That-jerk-throwing-weight.jpg")
+# knitr::include_graphics(img3_path)
 
 ```
 
-
+![](img/That-jerk-throwing-weight.jpg)
 
 ---
 # An aside - what is an effect size?
@@ -98,11 +99,12 @@ The effect size is the standardised difference between two groups.
 - Any model that contextualises the evidence in a form designed to help inform decisions
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/img/DecisionModel.png")
-knitr::include_graphics(img3_path)
+# img3_path=paste0(here(),"/img/DecisionModel.png")
+# knitr::include_graphics(img3_path)
 
 ```
 
+![](img/DecisionModel.png)
 ---
 
 # Challenges in Evidence synthesis #1
@@ -143,22 +145,25 @@ knitr::include_url("https://covid-nma.com/dataviz/", height = "400px")
 - Although we (Eliza Grimes; Neal Haddaway; Gabby Palomo-Munoz; Me) have started to do this for ecological journals
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "200px"}
-img3_path=paste0(here(),"/img/logo.png")
-knitr::include_graphics(img3_path)
+# img3_path=paste0(here(),"/img/logo.png")
+# knitr::include_graphics(img3_path)
 
 ```
 
+![](img/logo.png)
 ---
 # Challenges in Evidence synthesis #2
 **Inconclusive evidence**
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE,out.width = "400px"}
 # Small fig.width
-
-img1_path=paste0(here(),"/img/Buck.jpg")
-knitr::include_graphics(img1_path)
+# 
+# img1_path=paste0(here(),"/img/Buck.jpg")
+# knitr::include_graphics(img1_path)
 
 ```
+
+![](img/Buck.jpg)
 
 ---
 
@@ -174,21 +179,24 @@ Decision analysis added to Evidence Synthesis
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 
-img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
-knitr::include_graphics(img1_path)
+# img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+# img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
+# knitr::include_graphics(img1_path)
 
 ```
+
+![](img/jfr312484-fig-0002-m.png)
 
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
-#img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
-knitr::include_graphics(img2_path)
+# #img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
+# img2_path=paste0(here(),"/img/jfr312484-fig-0004-m.jpg")
+# knitr::include_graphics(img2_path)
 ```
 
+![](img/jfr312484-fig-0004-m.jpg)
 ---
 
 # What are the opportunities? #2
@@ -198,18 +206,20 @@ knitr::include_graphics(img2_path)
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 #img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/img/unnamed-chunk-309-1.png")
-knitr::include_graphics(img2_path)
+#img2_path=paste0(here(),"/img/unnamed-chunk-309-1.png")
+#knitr::include_graphics(img2_path)
 ```
-
+![](img/unnamed-chunk-309-1.png)
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 #img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/img/forest_bayesian.png")
-knitr::include_graphics(img2_path)
+#img2_path=paste0(here(),"/img/forest_bayesian.png")
+#knitr::include_graphics(img2_path)
 ```
+
+![](img/forest_bayesian.png)
 
 ---
 
@@ -232,8 +242,9 @@ class: inverse
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 #img1_path=paste0(here(),"/img/jfr312484-fig-0002-m.png")
-img2_path=paste0(here(),"/img/1500x500.jpg")
-knitr::include_graphics(img2_path)
+#img2_path=paste0(here(),"/img/1500x500.jpg")
+#knitr::include_graphics(img2_path)
 ```
 
+![](img/1500x500.jpg)
 ## Have a look at some of the tools we are developing at https://www.eshackathon.org/
