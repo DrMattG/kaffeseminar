@@ -112,7 +112,7 @@ Over 2.5 million academic papers published per year
 ![](https://media.giphy.com/media/c6W48VCLPF1l8Uu18A/giphy.gif)
 
 ### Solutions
-- Evidence mapping (open access tools - e.g. EviAtlas)
+- Evidence mapping (open access tools - e.g. EviAtlas, sysrevdata)
 - Dynamic searching (e.g. litsearchr, Revtools)
 - Research weaving*
 - Collaborative synthesis
@@ -223,8 +223,16 @@ class: inverse
 
 ## Evidence synthesis is a robust methodology but it can be done badly
 ## Often evidence synthesis can come across as rigid and unforgiving
-## We need pragmatic approaches to evidence synthesis
 ## "Rapid synthesis" is a bit of a buzzword at the moment but we can do reviews rapidly 
 
 
+---
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+#img1_path=paste0(here(),"/assets/jfr312484-fig-0002-m.png")
+img2_path=paste0(here(),"/assets/1500x500.jpg")
+knitr::include_graphics(img2_path)
+```
+
+## Have a look at some of the tools we are developing at https://www.eshackathon.org/
