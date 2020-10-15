@@ -47,10 +47,11 @@ class: inverse, center, middle
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-img3_path=paste0(here(),"/img/SystematicMap.png")
-knitr::include_graphics(img3_path)
+# img3_path=paste0(here(),"/img/SystematicMap.png")
+# knitr::include_graphics(img3_path)
 
 ```
+![](img/SystematicMap.png)
 
 ---
 
